@@ -1,0 +1,65 @@
+label{
+    display: block;
+    width: 100%;
+}
+.content-2 > div {
+    box-sizing: border-box;
+    color: #303952;
+    width: 100%;
+    padding: 0.5em;
+}
+.scroll-div {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5em;
+    overflow-y: scroll;
+}
+ul {
+    list-style-type: none;
+}
+input:valid, textarea:valid {
+    outline-color: #2ecc71;
+}
+
+#noteList > li {
+    box-sizing: border-box;
+    margin: 0.5em;
+    border: 1px solid #303952;
+}
+
+.li-title {
+    color: #303952;
+    width: 150px;
+    font-size: 1.1em;
+}
+.li-time {
+    color: #303952;
+}
+
+.update, .delete {
+    background-color: #f9f8f7;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+.update {
+    background-image: url('../img/edit.png')
+}
+.delete {
+    background-image: url('../img/delete.png')
+}
+.update:focus {
+    outline-color: #786fa6;
+}
+.delete:focus {
+    outline-color: #e77f67;
+}
+h3 {
+    color: #e66767;
+}
+a:link {
+    color:  #e66767;
+}
+a:visited, a:active {
+    color: #574b90;
+}
